@@ -1,0 +1,428 @@
+body{
+    margin: 0%;
+    background-color:white;
+}
+header{
+    margin: 0;
+    background-color: #ED008C;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.apro{
+    margin: 0%;
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: #ED008C;
+}
+.texto-junto {
+    display: flex;
+    justify-content: center;
+}
+.texto-junto span {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px; 
+    font-family: "Arial", sans-serif; 
+}
+.te1{
+    color: #1aaba4;
+}
+.te2{
+    color: #074a91;
+}
+.texto-junto2 {
+    display: flex;
+    justify-content: center;
+}
+.texto-junto2 span {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-right: 10px; 
+    font-family: "Arial", sans-serif; 
+}
+.te3{
+    color: #1aaba4;
+    font-weight: 300;
+}
+.te4{
+    color: #1aaba4;
+    font-weight: bold;
+}
+.for{
+    display: flex;
+    justify-content: center;
+}
+.for input{
+    font-weight: bold;
+    border-radius: 20px; 
+    border: 3px solid #d9cfcf; 
+    border-color: #8ed1fc;
+    margin-right: 10px; 
+    font-size: 20px;
+    font-family: "Arial",sans-serif;
+    padding: 10px 35px;
+    text-align: center;
+}
+.texto-junto3 {
+    display: flex;
+    justify-content: center;
+}
+.texto-junto3 span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-right: 5px; 
+    font-family: "Arial", sans-serif; 
+}
+.te5{
+    color: #000000;
+}
+.te6{
+    color: #1aaba4;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background-color: #ED008C;
+    color: white;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border-color: #ED008C;
+    padding: 10px 35px;
+}
+.btn button:hover{
+    background-color: white;
+    color: #ED008C;
+    border-color: #ED008C;
+}
+.im3{
+    margin-top: -55px;
+}
+.texto-junto4{
+    display:flex;
+    background: #074a91;
+    justify-content: space-evenly;
+}
+.flex-item{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 60px; 
+    font-family: "Arial",sans-serif;
+    padding-top: 62px;
+    padding-bottom: 0px;
+}
+.texto-junto5{
+    display:flex;
+    background: #074a91;
+    justify-content: space-evenly;
+}
+.tem{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Arial",sans-serif;
+    padding-top: 5px;
+    padding-bottom: 62px;
+}
+h2{
+    font-weight: bold;
+    color: #074a91;
+    font-family: "Arial",sans-serif;
+    font-size: 40px;
+}
+.contenedor { 
+    display: grid;
+    place-items: justify;
+    color: #6b6a6a;
+    font-family: "Arial",sans-serif;
+    font-size: 22px;
+    padding: 65px 180px;
+    grid-template-columns: auto auto; 
+    gap: 10px; 
+}
+.img4{
+    width: 750px;   
+    height: 690px; 
+}
+.contenedor h4{
+    display: inline-block;
+    float: right;
+    margin: -48px 40px;
+    color: #074a91;
+}
+.img5{
+    padding-top: 25px;
+    width: 570px;   
+    height: 70px; 
+}
+.texto-junto6{
+    display:flex;
+    flex-direction: row;
+}
+.flex{
+    color:#074a91;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 90px; 
+    font-family: "Arial",sans-serif;
+    padding-top: 20px;
+}
+.texto-junto7 {
+    display: flex;
+    justify-content: center;
+}
+.texto-junto7 span {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px; 
+    font-family: "Arial", sans-serif; 
+}
+.te7{
+    color: #1aaba4;
+}
+.te8{
+    color: #074a91;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button{
+    margin-right: 10px; 
+    background-color: #D6DE23;
+    color: white;
+    border-radius: 60px;
+    font-size: 30px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border-color: #D6DE23;
+    padding: 10px 20px;
+}
+.btn2 button:hover{
+    background-color: white;
+    color: #D6DE23;
+    border-color: #D6DE23;
+}
+.container2{
+    display: flex;
+    justify-content: center; 
+}
+.container2 img{
+     margin:20px 100px;
+}
+.container2 img:hover { 
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.im7{
+    margin-top: 60px;
+    width: 280px;   
+    height: 350px;
+}
+.im8{
+    margin-top: 25px;
+    width: 240px;   
+    height: 300px; 
+}
+.im6{
+    margin-top: 25px;
+    width: 240px;   
+    height: 300px; 
+}
+.separador{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #074a91;
+    color: #074a91;
+    font-size: 5px;
+}
+.conte { 
+    display: grid;
+    color: #074a91;
+    font-family: "roboto" sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-right: 350px ;
+    padding-left: 350px;
+    grid-template-columns: 2fr 2fr; 
+    gap: 15px; 
+}
+.conte hr{
+    background-color: #7e7d7d;
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+.btn3 button{
+    background-color: #ED008C;
+    color: white;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border-color: #ED008C;
+    margin-top: 45px;
+    padding: 10px 28px;
+}
+.btn3 button:hover{
+    background-color: white;
+    color: #ED008C;
+    border-color: #ED008C;
+}
+.apro2{
+    font-weight: lighter;
+    margin-top: 100px;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #1aaba4;
+    margin-bottom: 70px;
+}
+.container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.btn4, .btn5{
+    margin: 10px;
+} 
+.center-content {
+    display: flex; /* Hace que las imágenes estén en la misma fila */
+    align-items: center; /* Centra verticalmente las imágenes en la fila */
+    text-align: center; 
+}
+.im9, .im10 {
+    width: 500px;
+    height: 400px; 
+    margin: 0 10px; 
+    animation: desplazarDerecha 4s ease-in-out infinite, desvanecer 4s ease-in-out infinite;
+    /* Aplica la animación de desplazamiento y desvanecimiento a las imágenes */
+} 
+@keyframes desplazarDerecha {
+    0%, 100% {
+      transform: translateX(0); /* Sin desplazamiento al principio y al final */
+    }
+    50% {
+      transform: translateX(100px); /* Desplazamiento hacia la derecha */
+    }
+}
+@keyframes desvanecer {
+    0%, 100% {
+      opacity: 1; /* Opacidad al principio y al final */
+    }
+    50% {
+      opacity: 0; /* Opacidad la mitad de la animación */
+    }
+}
+.btn4 button,.btn5 button{
+    background-color: #074a91;
+    color: white;
+    border-radius: 70px;
+    font-size: 20px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border-color: #074a91;
+    padding: 5px 15px;
+}
+.btn4 button:hover,.btn5 button:hover{
+    background-color: #ED008C;
+    color: white;
+    border-color: #ED008C;
+}
+.for4{
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+    justify-content: space-evenly;
+    background: #D6DE23; 
+    padding-top: 40px ;
+    padding-bottom: 5px;
+}
+.for4 input{
+    font-weight: bold;
+    border-radius: 20px; 
+    border: 3px solid #d9cfcf; 
+    border-color: #8ed1fc;
+    margin-right: 10px; 
+    font-size: 20px;
+    font-family: "Arial",sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+}
+.btn6 {
+    background-color: #ED008C;
+    color: white;
+    border-radius: 25px;
+    font-size: 28px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    border-color: #ED008C;
+    padding: 10px 60px;
+}
+.regis{
+    margin-right: 10px;
+    color: #074a91;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial',sans-serif;
+}
+.for5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    background: #D6DE23; 
+    padding-top: 8px ;
+    padding-bottom: 20px;
+}
+.ahora{
+    display: inline-block;
+    float: right;
+    margin: -10px -80px;
+    color: #074a91;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial',sans-serif;
+    margin-right: 35px;
+}
+.tel{
+   text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Arial',sans-serif;
+    margin-right: 95px;
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px; 
+    margin-top: 20px;
+    color: #074a91;
+    font-family: 'Arial',sans-serif;
+    font-size: 25px;
+}
+.fin h3{
+    margin-top: 45px;
+    margin-left: 35px;
+}
